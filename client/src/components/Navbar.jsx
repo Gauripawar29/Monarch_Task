@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4">
       <div className="container-fluid justify-content-center">
 
-        {/* Logo and Brand Name */}
+      
         <div className="d-flex align-items-center me-auto">
           <img
             src="https://cdn-icons-png.flaticon.com/512/1170/1170576.png"

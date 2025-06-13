@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { getCart } from "../api";
-import axios from "axios"; // Assuming you're using axios for API calls
-
+import axios from "axios"; 
 const Cart = () => {
   const [cart, setCart] = useState([]);
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { addToCart } from "../api";
-import "bootstrap/dist/css/bootstrap.min.css"; // Make sure this is imported
+import "bootstrap/dist/css/bootstrap.min.css"; 
 
 const ProductDetail = () => {
   const { id } = useParams();
